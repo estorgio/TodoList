@@ -1,1 +1,4 @@
-// alert("Script has been loaded!");
+$("li").click(function () {
+  $(this).toggleClass("completed");
+
+})
